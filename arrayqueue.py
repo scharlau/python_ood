@@ -1,3 +1,5 @@
+from exceptions import Empty
+
 class ArrayQueue:
     """FIFO queue implementation using a python list for underlying storage """
     DEFAULT_CAPACITY = 10 #moderate capacity for new queues
@@ -56,18 +58,7 @@ class ArrayQueue:
             walk = (1 + walk) % len(old) # use old size as modulus
         self._front = 0             # front has been realigned
         
-class Empty(Exception):
-    """ Raised when the collection is empty"""
-    pass # placeholder for future content
-        
-# sample usage
-if __name__ == '__main__':
-    myq = ArrayQueue()
-    print(myq.is_empty())
-    myq.enqueue('hello')
-    myq.enqueue(7)
-    print(myq.__len__())
-    print(myq.dequeue())
+    
             
         
         

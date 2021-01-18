@@ -1,3 +1,5 @@
+from exceptions import Empty
+
 #array based stack
 class ArrayStack:
     """LIFO stack implementation using a Python List as underlying storage"""
@@ -34,17 +36,4 @@ class ArrayStack:
         if self.is_empty():
             raise Empty('Stack is empty')
         return self._data.pop() #remove the last item from the list
-
-class Empty(Exception):
-    """ Raised when the collection is empty"""
-    pass # placeholder for future content
-        
-# sample usage
-if __name__ == '__main__':
-    mystack = ArrayStack()
-    print(mystack.is_empty())
-    mystack.push('hello')
-    mystack.push(7)
-    print(mystack.__len__())
-    print(mystack.pop())
     
