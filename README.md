@@ -1,5 +1,5 @@
 # python_ood
-Code examples for object orientated design course in python
+Code examples for an object orientated design course in python
 
 A mixture of classes and files to use the examples.
 
@@ -10,4 +10,6 @@ Examples for
 * Recursion
 * Parsing CSV files
 
-A work in progress.
+Some files are taken from the GitHub repo at https://github.com/mjwestcott/Goodrich  
+
+This is a work in progress.

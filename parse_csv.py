@@ -13,7 +13,7 @@ with open('USGS_WC_eartag_deployments_2009-2011.csv', newline='') as f:
 
         """ we could do something with this data, 
         such as move it into a database, or process it by extracting items
-        as here, being sure to convert them to the format required
+        as here, being sure to convert them to the format required if they are not strings
         """
         bearID = int(row[0])
         pTT_ID = int(row[1])

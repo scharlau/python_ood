@@ -1,5 +1,4 @@
-""" A simple factorial recursion example 
-"""
+""" A simple factorial recursion example """
 
 def factorial(n):
     if n == 0:
