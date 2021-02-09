@@ -34,10 +34,11 @@ def menu():
         exit()
     else:
         calculate()
-        
+
         
 """ Run the program """
 welcome()
 calculate()
+
 
 

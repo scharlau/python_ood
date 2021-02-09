@@ -9,6 +9,7 @@ Examples for
 * Queues
 * Recursion
 * Parsing CSV files
+* Some testing examples with unittes
 
 Some files are taken from the GitHub repo at https://github.com/mjwestcott/Goodrich  
 
