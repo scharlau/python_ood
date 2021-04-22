@@ -13,4 +13,4 @@ Examples for
 
 Some files are taken from the GitHub repo at https://github.com/mjwestcott/Goodrich  
 
-This is a work in progress.
+This is a work in progress from Spring 2021.
